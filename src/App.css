@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+.navbar{
+  background-color: rgb(26, 92, 115);
+  background: linear-gradient(90deg,rgb(26, 92, 115)50%,rgb(26, 92, 115)100%);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+.logo{
+  width: 100px;
+  height: 50px;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+#home{
+display: inline-block;
+   /* background-color: rgb(123, 100, 255);
+  background: linear-gradient(90deg,rgb(99, 91, 105)50%,rgb(14, 14, 15)100%); */
+  min-height: 500px;
+  
+} 
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.form{
+  background-color: rgb(26, 92, 115);
+  background: linear-gradient(90deg,rgb(26, 92, 115)50%,rgb(41, 39, 33)100%);
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer{
+  background-color: rgb(26, 92, 115);
+  background: linear-gradient(90deg,rgb(26, 92, 115)50%,rgb(41, 39, 43)100%);
 }
