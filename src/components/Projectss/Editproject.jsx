@@ -11,7 +11,7 @@ const Editproject = () => {
   
   useEffect(() => {
     const getId = async () => {
-      let res = await axios.get(`https://limatmernapp.onrender.com/${_id}`);
+      let res = await axios.get(`https://limatmernapp.onrender.com/router1/${_id}`);
 
       console.log(res);
 
@@ -35,7 +35,7 @@ const Editproject = () => {
   const update = async (event) => {
     event.preventDefault();
 
-    await axios.put(`https://limatmernapp.onrender.com/update/${_id}`, data);
+    await axios.put(`https://limatmernapp.onrender.com/update/router1/${_id}`, data);
     
     
   };

@@ -16,7 +16,7 @@ const Viewproject = () => {
   useEffect(()=>{
 
   const getId = async()=>{
-  let res= await axios.get(`https://limatmernapp.onrender.com/${_id}`)
+  let res= await axios.get(`https://limatmernapp.onrender.com/router1/${_id}`)
   
   console.log(res)
   

@@ -23,7 +23,7 @@ const Admin = () => {
   const handleDelete = async (_id) => {
     try {
       console.log("working")
-      await axios.delete(`https://limatmernapp.onrender.com/delete/${_id}`);
+      await axios.delete(`https://limatmernapp.onrender.com//router1/delete/${_id}`);
       await getId();
     } catch (error) {
       console.error(error);

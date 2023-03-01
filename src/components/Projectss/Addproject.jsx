@@ -31,7 +31,7 @@ export default class Addproject extends Component {
         ) 
         {
           axios
-            .post("https://limatmernapp.onrender.com/post", this.state)
+            .post("https://limatmernapp.onrender.com/router1/post", this.state)
             
             .then((res) => {
               this.setState({ photo: "", project: "", location: "", year: "",logo:"" });
