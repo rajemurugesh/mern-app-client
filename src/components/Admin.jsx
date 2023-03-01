@@ -8,7 +8,7 @@ const Admin = () => {
   const [datas, setData] = useState([]);
   console.log(datas);
   const getId = async () => {
-    let res = await axios.get(`https://limatmernapp.onrender.com/data`);
+    let res = await axios.get(`https://limatmernapp.onrender.com/router1/data`);
     console.log(res);
     setData(res.data);
   };
