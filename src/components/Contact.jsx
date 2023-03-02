@@ -17,7 +17,7 @@ class Contact extends Component {
   handleSubmit = (e) => {
     e.preventDefault();
     if(this.state.name !== "" && this.state.message !== "") {
-      axios.post("https://limatmernapp.onrender.com/contact", this.state)
+      axios.post("https://limatmernapp.onrender.com/router3/contact", this.state)
       .then((res) => {
         this.setState({name: "", message: ""});
         console.log(res);

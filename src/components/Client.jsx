@@ -49,8 +49,8 @@ class Client extends Component {
                           <div className="row justify-content-center align-items-center">
                             <div className="col p-1">
                               <img
-                                src={pro.logo}
-                                alt="err"
+                                src={pro.logourl}
+                                alt="wwwww"
                                 className="contact-file0"
                                 
                               />
