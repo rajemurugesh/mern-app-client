@@ -10,7 +10,7 @@ class Client extends Component {
   }
 
   componentDidMount = () =>{
-    axios.get("https://limatmernapp.onrender.com/router2/data").then((res)=>{
+    axios.get("https://limatmernapp.onrender.com/router1/data").then((res)=>{
     const datac = res.data;
     console.log(datac);
     this.setState({ datas: datac });
