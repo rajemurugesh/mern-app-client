@@ -11,7 +11,7 @@ const Home = () => {
     <div className="container-fluid">
           <div className="row  mt-5 py-3">
             <div className="col-md-6 align-items-center">
-              <h3 className="disply-6 fw-folder mb-4 text-center text-decoration-underline ">
+              <h3 className="disply-6 fw-folder mb-4 text-center  ">
                 Welcome to Limat Tech Solutions
               </h3>
               
@@ -49,7 +49,7 @@ const Home = () => {
             </div>
 
             <div className="col-md-6 ">
-              <h3 className="disply-4 mb-4 fw-folder  text-center text-decoration-underline">
+              <h3 className="disply-4 mb-4 fw-folder  text-center">
                 Our Services
               </h3>
               

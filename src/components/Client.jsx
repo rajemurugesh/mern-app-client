@@ -10,7 +10,7 @@ class Client extends Component {
   }
 
   componentDidMount = () =>{
-    axios.get("https://limatmernapp.onrender.com/router1/data").then((res)=>{
+    axios.get("https://limatmernapp.onrender.com/data").then((res)=>{
     const datac = res.data;
     console.log(datac);
     this.setState({ datas: datac });
@@ -49,8 +49,8 @@ class Client extends Component {
                           <div className="row justify-content-center align-items-center">
                             <div className="col p-1">
                               <img
-                                src={pro.logourl}
-                                alt="wwwww"
+                                src={pro.logo}
+                                alt="err"
                                 className="contact-file0"
                                 
                               />

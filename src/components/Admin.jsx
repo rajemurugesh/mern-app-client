@@ -8,7 +8,7 @@ const Admin = () => {
   const [datas, setData] = useState([]);
   console.log(datas);
   const getId = async () => {
-    let res = await axios.get(`https://limatmernapp.onrender.com/router1/data`);
+    let res = await axios.get(`https://limatmernapp.onrender.com/data`);
     console.log(res);
     setData(res.data);
   };
@@ -23,7 +23,7 @@ const Admin = () => {
   const handleDelete = async (_id) => {
     try {
       console.log("working")
-      await axios.delete(`https://limatmernapp.onrender.com/router1/delete/${_id}`);
+      await axios.delete(`https://limatmernapp.onrender.com/delete/${_id}`);
       await getId();
     } catch (error) {
       console.error(error);

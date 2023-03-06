@@ -11,7 +11,7 @@ const Editproject = () => {
   
   useEffect(() => {
     const getId = async () => {
-      let res = await axios.get(`https://limatmernapp.onrender.com/router1/${_id}`);
+      let res = await axios.get(`https://limatmernapp.onrender.com/${_id}`);
 
       console.log(res);
 
@@ -32,12 +32,13 @@ const Editproject = () => {
     
   };
 
-  const update = async (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
 
-    await axios.put(`https://limatmernapp.onrender.com/update/router1/${_id}`, data);
+    await axios.put(`https://limatmernapp.onrender.com/update/${_id}`, data);
     
-    
+    window.location.reload();
+  event.target.reset();
   };
 
   return (
@@ -57,7 +58,7 @@ const Editproject = () => {
           </div>
           <div className="row p-4 mb-5">
             <div className="col-md-6">
-              <form>
+              <form onSubmit = {handleSubmit}>
                 <div className="mb-2">
                   <label></label>
                   <input
@@ -101,7 +102,7 @@ const Editproject = () => {
                     type="submit"
                     className="btn btn-primary"
                     value="Update"
-                    onClick={update}
+                    
                   />
                   <Link to="/admin" className="btn btn-danger ms-2">
                     Back

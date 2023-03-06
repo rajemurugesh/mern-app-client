@@ -13,12 +13,12 @@ const Services = () => {
 
       <div className="col-md-12">
       
-        <h1>What We DO</h1>
+        <h3>What We DO</h3>
         <p>We carry on in India and abroad the business with a range of technologies and products including development of specialized system software and application software, state-of-the-art Website development, Mobile application development, Hosting services, Devops and automation tools methodologies and software application development, commercial packages, project devoted to E-Business and E-Commerce applications and standard business packages, developing and managing web-enabled IT infrastructure and implementation and support for client server applications and technical assistance and to provide business process outsourcing services for industries, corporate communications and technological assistance for Institutions. Each work that we do stands unique and has a personal touch to meet specific business needs. We design not only your needs but also enhance your business.</p>
 
         <div className='col-md-12'>
           <h1 className='text-center'>Our Different Services</h1>
-          <p className='text-center'>10 years of experience in IT Services</p>
+          <h5 className='text-center'>10 years of experience in IT Services</h5>
           {/* <div className='col-2 mx-auto my-3'>
             <button type="button" className="btn btn-primary ">Send Email</button>
           </div> */}

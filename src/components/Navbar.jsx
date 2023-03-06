@@ -22,7 +22,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
             {/* <ul className="navbar-nav me-auto mb-2 mb-lg-0 "> */}
               <Link className="navbar-brand fw-folder fs-4 mx-8  " to="/">
-                <img  className="logo"src="LIMAT.png" alt="LIMAT TECH COURSES" />LIMAT TECH SOLUTIONS
+                <img  className="logo"src="LIMAT.png" alt="" />LIMAT TECH SOLUTIONS
               </Link>
               <ul className="navbar-nav me-auto mb-2 mb-lg-0 px-5 mx-2 ">
               <li className="nav-item">
